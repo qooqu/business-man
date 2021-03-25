@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/qooqu/business-man/issues"
   },
-  "homepage": "https://github.com/qooqu/business-man#readme"
+  "homepage": "https://github.com/qooqu/business-man#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
 }
