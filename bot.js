@@ -37,10 +37,10 @@ function tweet() {
     });
 }
 
-// Run every 3 days
+// Run once a day
 setInterval(function () {
     tweet();
-    // }, 1000 * 60 * 60 * 24 * 3);
-}, 1000 * 60);
+}, 1000 * 60 * 60 * 24 * 1);
+// }, 1000 * 60);
 
 // tweet();
