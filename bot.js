@@ -19,8 +19,7 @@ const businessList = businesses.list;
 const hobbyList = hobbies.list;
 
 function random(arr) {
-    const randomEle =
-        arr[Math.min(Math.floor(Math.random() * arr.length), arr.length - 1)];
+    const randomEle = arr[Math.floor(Math.random() * arr.length)];
     return randomEle;
 }
 
@@ -38,9 +37,9 @@ function tweet() {
 }
 
 // Run once a day
-setInterval(function () {
-    tweet();
-}, 1000 * 60 * 60 * 24 * 1);
+// setInterval(function () {
+//     tweet();
+// }, 1000 * 60 * 60 * 24 * 1);
 // }, 1000 * 60);
 
-// tweet();
+tweet();
